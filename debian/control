@@ -1,0 +1,12 @@
+Source: sabnzbd-rn
+Section: contrib
+Priority: extra
+Maintainer: Mhynlo <mhynlo@mhynlo.io>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.8
+Homepage: https://sabnzbd.org/
+
+Package: sabnzbd-rn
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, readynasos (>= 6.1.0), python, python-cheetah, python-support, python-cryptography, python-yenc, python-dbus, par2, unrar, p7zip, git
+Description: Free and easy binary newsreader

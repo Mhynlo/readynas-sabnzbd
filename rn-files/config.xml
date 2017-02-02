@@ -1,0 +1,13 @@
+<Application resource-id="sabnzbd-rn"><!-- 'resource-id' must be AppName -->
+  <Name>SABnzbd</Name>
+  <Author>Mhynlo</Author>
+  <Version>1.2.0-0</Version>
+  <RequireReboot>0</RequireReboot>
+  <ConfigURL/>
+  <LaunchURL>https://localhost/sabnzbd/</LaunchURL>
+  <ReservePort>9088</ReservePort>
+  <InfoURL>https://sabnzbd.org/</InfoURL>
+  <DebianPackage>sabnzbd-rn</DebianPackage>
+  <ServiceName>fvapp-sabnzbd-rn.service</ServiceName>
+  <Description lang="en-us">Free and easy binary newsreader</Description>
+</Application>

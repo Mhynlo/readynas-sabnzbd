@@ -1,0 +1,15 @@
+[Unit]
+Description=SABnzbd application instance
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python /apps/sabnzbd-rn/SABnzbd.py -s localhost:9088 --https 9089 --config-file /apps/sabnzbd-rn/app-config/sabnzbd.ini --logging 1 -b 0
+Type=simple
+Restart=on-failure
+Nice=18
+User=admin
+Group=admin
+
+
+[Install]
+WantedBy=multi-user.target
